@@ -1,0 +1,22 @@
+# Core dependencies
+flask==2.3.2          # Web framework
+requests==2.31.0      # HTTP library
+
+# Database
+sqlalchemy==2.0.20    # ORM for database management
+psycopg2-binary==2.9.7 # PostgreSQL adapter
+
+# Authentication
+flask-bcrypt==1.0.1   # Password hashing
+flask-jwt-extended==4.4.4 # JWT authentication
+
+# Testing
+pytest==7.4.2         # Testing framework
+pytest-flask==1.2.0   # Flask testing utilities
+
+# Linting and formatting
+flake8==6.1.0         # Linter
+black==23.9.1         # Code formatter
+
+# Environment management
+python-dotenv==1.0.0  # Environment variable management
